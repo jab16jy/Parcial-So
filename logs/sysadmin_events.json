@@ -1,0 +1,116 @@
+[
+  {
+    "timestamp": "2026-06-12T22:52:44.431917",
+    "action": "organize_folder",
+    "details": {
+      "folder": "/tmp/tmp1roqrcjl",
+      "files_moved": 6,
+      "by_category": {
+        "Others": 1,
+        "Videos/MP4": 1,
+        "Images/Others": 1,
+        "Images/JPG": 1,
+        "Documents/WORD": 1,
+        "Documents/PDF": 1
+      }
+    }
+  },
+  {
+    "timestamp": "2026-06-12T22:52:44.438297",
+    "action": "backup_completed",
+    "details": {
+      "source": "/tmp/tmp3x8sbznm/source",
+      "dest": "/tmp/tmp3x8sbznm/backups/backup_20260612_225244",
+      "files_copied": 2,
+      "files_skipped": 0
+    }
+  },
+  {
+    "timestamp": "2026-06-12T22:52:45.043125",
+    "action": "report_generated",
+    "details": {
+      "format": "txt",
+      "path": "/tmp/tmpmjsuaytn/report_20260612_225244.txt"
+    }
+  },
+  {
+    "timestamp": "2026-06-12T22:52:45.578929",
+    "action": "report_generated",
+    "details": {
+      "format": "csv",
+      "path": "/tmp/tmpmjsuaytn/report_20260612_225245.csv"
+    }
+  },
+  {
+    "timestamp": "2026-06-12T22:52:53.336376",
+    "action": "kill_process_blocked",
+    "details": {
+      "pid": 1,
+      "reason": "protected_pid"
+    }
+  },
+  {
+    "timestamp": "2026-06-12T22:52:53.337410",
+    "action": "kill_process_failed",
+    "details": {
+      "pid": 99999999,
+      "reason": "not_found"
+    }
+  },
+  {
+    "timestamp": "2026-06-12T22:52:53.352330",
+    "action": "organize_folder",
+    "details": {
+      "folder": "/tmp/tmp6b0movu_",
+      "files_moved": 3,
+      "by_category": {
+        "Others": 1,
+        "Images/JPG": 1,
+        "Documents/PDF": 1
+      }
+    }
+  },
+  {
+    "timestamp": "2026-06-12T22:52:53.357789",
+    "action": "organize_folder",
+    "details": {
+      "folder": "/tmp/tmp6b0movu_",
+      "files_moved": 2,
+      "by_category": {
+        "Images/JPG": 1,
+        "Documents/PDF": 1
+      }
+    }
+  },
+  {
+    "timestamp": "2026-06-12T22:54:42.700688",
+    "action": "kill_process_blocked",
+    "details": {
+      "pid": 1,
+      "reason": "protected_pid"
+    }
+  },
+  {
+    "timestamp": "2026-06-12T22:54:47.894602",
+    "action": "report_generated",
+    "details": {
+      "format": "txt",
+      "path": "reports/report_20260612_225447.txt"
+    }
+  },
+  {
+    "timestamp": "2026-06-12T22:54:48.417972",
+    "action": "report_generated",
+    "details": {
+      "format": "csv",
+      "path": "reports/report_20260612_225447.csv"
+    }
+  },
+  {
+    "timestamp": "2026-06-12T22:54:48.418667",
+    "action": "test",
+    "details": {
+      "status": "ok"
+    }
+  }
+]

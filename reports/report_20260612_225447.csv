@@ -1,0 +1,26 @@
+SECTION,System Information
+Hostname,jabyn
+User,jabyn
+OS,Linux
+OS Version,"#1 SMP PREEMPT_DYNAMIC Tue, 02 Jun 2026 18:26:58 +0000"
+Architecture,x86_64
+IP Address,192.168.1.58
+
+SECTION,Hardware Resources
+Metric,Total,Used,Free,Usage%
+RAM,11.54 GB,5.35 GB,1.17 GB,46.3
+CPU,2 phys / 4 log,,,26.9
+Disk,218.40 GB,21.03 GB,186.21 GB,10.1
+
+SECTION,Top 10 Processes by CPU
+PID,Name,CPU%,MEM%
+11550,opencode,86.8,6.813903081330428
+15547,python,3.8,0.22686242817813113
+91,kworker/u17:0-i915_flip,1.9,0.0
+1070,kwin_wayland,1.9,1.9299994745648057
+1396,xdg-desktop-portal,1.9,0.16057167349126572
+2554,claude,1.9,4.403047788496141
+7262,python3,1.9,1.069211050794382
+11465,kitty,1.9,1.8213103957187937
+12396,kworker/u16:2-events_unbound,1.9,0.0
+1,systemd,0.0,0.12362597870566475
