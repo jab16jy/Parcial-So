@@ -1,46 +1,47 @@
 # SysAdmin Assistant
 
-CLI tool for OS system administration tasks — system monitoring, process
-management, file organisation, backups, reports, and scheduled automation.
+Herramienta CLI para administración del sistema operativo — monitoreo,
+gestión de procesos, organización de archivos, copias de seguridad,
+generación de reportes y automatización programada.
 
-Built for the Operating Systems course at university.
+Desarrollado para la materia Sistemas Operativos.
 
-## Requirements
+## Requisitos
 
 - Python 3.10+
 - pip
 
-## Dependencies
+## Dependencias
 
-Install with:
+Instalar con:
 
 ```bash
 pip install -r requirements.txt
 ```
 
-- **psutil** — system and process metrics
-- **rich** — beautiful CLI output (tables, panels, progress bars)
-- **schedule** — periodic task scheduling
+- **psutil** — métricas del sistema y procesos
+- **rich** — interfaz CLI con tablas, paneles y barras de progreso
+- **schedule** — programación de tareas periódicas
 
-## How to Run
+## Cómo ejecutar
 
 ```bash
 python main.py
 ```
 
-## Modules
+## Módulos
 
-| # | Module | Description |
+| # | Módulo | Descripción |
 |---|--------|-------------|
-| 1 | System Information | OS details, hardware specs, live resource usage |
-| 2 | Process Monitor | List, search, and kill processes with system-PID protection |
-| 3 | File Organizer | Auto-categorise files by type (Documents, Images, Videos, Others) |
-| 4 | Backup System | Recursive copy with progress bar and timestamped logs |
-| 5 | Report Generator | Export system info + process list to TXT or CSV |
-| 6 | Scheduled Automation | Schedule backup/report/organise tasks at set intervals |
+| 1 | Información del Sistema | Detalles del SO, hardware y recursos en vivo |
+| 2 | Monitor de Procesos | Listar, buscar y finalizar procesos con protección de PIDs del sistema |
+| 3 | Organizador de Archivos | Clasificación automática por tipo (Documentos, Imágenes, Videos, Otros) |
+| 4 | Copias de Seguridad | Copia recursiva con barra de progreso y registro con timestamp |
+| 5 | Generación de Reportes | Exporta info del sistema + lista de procesos a TXT o CSV |
+| 6 | Automatización Programada | Programa backups, reportes y organización a intervalos definidos |
 
-## Safety
+## Seguridad
 
-- PID 0 and PID 1 are **always protected** from termination.
-- Root-owned processes require **extra confirmation** before killing.
-- All operations are logged to `logs/sysadmin_events.json`.
+- Los PIDs 0 y 1 están **siempre protegidos** contra finalización.
+- Los procesos del usuario root requieren **confirmación adicional** antes de matarlos.
+- Todas las operaciones se registran en `logs/sysadmin_events.json`.
