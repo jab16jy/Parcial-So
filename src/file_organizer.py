@@ -83,7 +83,7 @@ def organize_folder(folder_path: str | Path) -> dict:
     Returns:
         Summary dict with keys: files_moved, by_category.
     """
-    folder = Path(folder_path)
+    folder = Path(folder_path).expanduser()
 
     if not folder.exists():
         console.print(f"[error]Source directory not found: {folder}[/error]")

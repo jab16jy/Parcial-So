@@ -28,8 +28,8 @@ def run_backup(source: str | Path, dest: str | Path) -> dict:
     Returns:
         Summary dict with keys: status, files_copied, dest_path, log_path.
     """
-    src_path = Path(source)
-    dest_parent = Path(dest)
+    src_path = Path(source).expanduser()
+    dest_parent = Path(dest).expanduser()
 
     if not src_path.exists():
         console.print(f"[error]Source directory not found: {src_path}[/error]")
